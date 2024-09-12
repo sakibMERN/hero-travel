@@ -7,3 +7,38 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  header,main{
+    width: 81%;
+    margin: 0 auto;
+  }
+
+  header{
+    padding-top: 50px;
+  }
+
+  /* nav section start  */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .site-name{
+    width: 274px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-title{
+    font-size: 36px;
+    font-weight: 800;
+    
+  }
+
+  nav a{
+    text-decoration: none;
+    margin-right: 44px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+  }
