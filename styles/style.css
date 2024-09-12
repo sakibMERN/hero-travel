@@ -68,20 +68,22 @@
 
   .container{
     max-width: 800px;
+    
   }
 
   .banner-content{
     max-width: 676px;
     margin: 0 auto;
     text-align: center;
+    padding: 0;
   }
 
   .banner-title{
     font-size: 64px;
     font-weight: 800;
-    line-height: 80px;
+    /* line-height: 80px; */
     color: white;
-    margin-bottom: 24px;
+    margin:0 0 24px 0;
   }
 
   .banner-description{
